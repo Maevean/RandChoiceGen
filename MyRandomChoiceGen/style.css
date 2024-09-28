@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    }
+
+html {
+    display: table;
+    margin: auto;
+    }
+
+body{
+    background-color: #000000;
+    color: white;
+    font-family: Ink Free;
+    font-size: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+button{
+    color: black;
+    background-color: pink;
+    font-size: 40px;
+    border-style: dotted;
+    border-color: white;
+    font-family: Words of love;
+    border-width: 6px;
+    border-radius: 20px;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+    border-color: pink;
+    align-items: center;
+    border-radius: 20px;
+}
+
+h2{
+    border-style: inset;
+    border-color: pink;
+    border-radius: 45px;
+    padding: 40px;
+     text-align: center;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: 30px;
+}

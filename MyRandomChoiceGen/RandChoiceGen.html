@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+<img src="topPic.png" alt="top">
+
+<h2>Random Choice Generator</h2>
+
+
+
+<center>
+    <button onclick="randomChoice()">Click Me</button>
+</center>
+
+<center>
+<p id="rando"></p>
+
+<script>
+var choices = ['Love Like the Galaxy', '3 Lives 3 Worlds', 'Love Between Fairy and Devil', 'New Life Begins', 'Qing Qing Zi Jin', 'The Legend of ShenLi', 'Blossoms in Adversity', 'Till the End of the Moon', 'The Long Ballad', 'Romance of the Little Forest', 'Lighter and Princess', 'New Show', 'Story of Kunning Palace', 'Back from the Brink', 'Destined', 'Love you Seven Times', 'Yong An Dream', 'The Last Immortal', 'The Legend of Zhuohua', 'W', 'Descendants of the Sun', 'Maiden Holmes', 'Lost You Forever S1', 'I Will Never Let You Go', 'Immortal Samsara', 'Fall in Love', 'Ashes of Love', 'Eternal Love', 'Goodbye my Princess', 'Rebirth for You', 'The Journey of Chong Zi', 'Royal Rumors', 'A Female Student Arrives at the Imperial College', 'The Princess and the Werewolf', 'Wrong Carriage Right Groom', 'Perfect Marriage Revenge', 'Everyone Loves Me', 'Just Give it Up and Read', 'My Demon', 'Romance on the Farm', 'Starry Love', 'Arsenal Military Academy', 'Amidst a Snowstorm of Love', 'Heirs', 'Who Rules the World', 'The Longest Promise', 'Love Me, Love My Voice', 'True Beauty', 'Love in the Moonlight', 'Heirs', 'One of the Boys Over Flowers type shows', 'My Divine Emissary', 'Moon Love'];
+
+function randomChoice() {
+  var randomIndex = Math.floor(Math.random() * choices.length);
+  var randomChoice = choices[randomIndex];
+  document.getElementById("rando").innerHTML = randomChoice;
+}
+</script></center>
+
+<img src="bottomPic.png" alt="bottom">
+
+</body>
+</html>
